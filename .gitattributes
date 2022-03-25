@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+WebGl.data.gz filter=lfs diff=lfs merge=lfs -text
+WebGl.data.gz~ filter=lfs diff=lfs merge=lfs -text
